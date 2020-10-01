@@ -1,0 +1,4 @@
+### Get all persons to retrieve person ids
+GET http://localhost:3001/api/persons
+### Specify some person id in `<person-id>`
+DELETE http://localhost:3001/api/persons/<person-id>

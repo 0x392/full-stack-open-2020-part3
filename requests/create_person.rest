@@ -1,0 +1,10 @@
+### Create a new person
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Ryan",
+  "number": "0800-000-123"
+}
+### Check if the person is created successfully
+GET http://localhost:3001/api/persons
